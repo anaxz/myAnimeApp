@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
-    "start": "nodemon server.js",
+    "start": "nodemon server/server.js",
     "show-my-stuff": "ls"
   },
   "keywords": [],

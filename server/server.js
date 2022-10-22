@@ -13,7 +13,7 @@ server.use(cors());
 // helps with access acording to folder level without coding
 server.use(express.static("public"));
 
-const animeRoute = require('./controllers/anime');
+const animeRoute = require('../controllers/anime');
 server.use('/anime', animeRoute);
 
 server.listen(port, () => console.log(`Express departing now from http://localhost:${port}!`))
