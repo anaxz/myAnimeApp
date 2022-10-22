@@ -1,4 +1,4 @@
-const animeData = require('../data');
+const animeData = require('../server/data');
 
 class Anime {
   constructor(data) {
